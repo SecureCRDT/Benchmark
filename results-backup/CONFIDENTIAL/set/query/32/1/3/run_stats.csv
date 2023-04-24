@@ -1,4 +1,0 @@
-Type,Name,Request Count,Failure Count,Median Response Time,Average Response Time,Min Response Time,Max Response Time,Average Content Size,Requests/s,Failures/s,50%,66%,75%,80%,90%,95%,98%,99%,99.9%,99.99%,100%
-GET,/api/query?value=[value]&op=exists,14248,0,41,41.042321729365526,40,55,2.0,23.76249062642607,0.0,41,41,41,41,41,42,42,42,42,52,55
-GET,on_start,32,0,41,41.875,41,66,5.0,0.05336887282745889,0.0,41,41,41,41,42,42,66,66,66,66,66
-,Aggregated,14280,0,41,41.04418767507003,40,66,2.0067226890756302,23.81585949925353,0.0,41,41,41,41,41,42,42,42,42,55,66
