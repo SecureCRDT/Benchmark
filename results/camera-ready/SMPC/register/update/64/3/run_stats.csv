@@ -1,0 +1,4 @@
+Type,Name,Request Count,Failure Count,Median Response Time,Average Response Time,Min Response Time,Max Response Time,Average Content Size,Requests/s,Failures/s,50%,66%,75%,80%,90%,95%,98%,99%,99.9%,99.99%,100%
+GET,/api/update?value=[value],2730123,0,41,40.60864217472986,40,63,5.0,1517.2558433409592,0.0,41,41,41,41,41,42,42,42,42,45,63
+GET,on_start,64,0,1,2.265625,0,62,5.0,0.035567765252269366,0.0,1,1,2,2,3,3,3,62,62,62,62
+,Aggregated,2730187,0,41,40.60774335237843,0,63,5.0,1517.2914111062116,0.0,41,41,41,41,41,42,42,42,42,45,63
