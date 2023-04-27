@@ -13,7 +13,7 @@ CRDT Benchmark is a performance tool that measures the latency and throughput of
 
 # How it works
 
-CRDT Benchmark is built on top of [Locust](https://locust.io/), a widely-used industry-standard tool to measure the performance of large-scale HTTP services. Locust offers main advantages: first, it provides a clear separation between workload and benchmark framework, making it easy to extend the benchmark with new workloads; secondly, its designed to be independent of the system being tested. This enables our benchmark to be reused to measure the performance of different systems that implement CRDTs
+CRDT Benchmark is built on top of [Locust](https://locust.io/), a widely-used industry-standard tool to measure the performance of large-scale HTTP services. Locust offers two main advantages: first, it provides a clear separation between workload and benchmark framework, making it easy to extend the benchmark with new workloads; secondly, its designed to be independent of the system being tested. This enables our benchmark to be reused and measure the performance of different CRDT implementations.
 
 ## Dependencies
 
@@ -33,9 +33,9 @@ $ poetry install
 
 ## Running a Workload
 
-> :warning: **Evaluating the SecureCRDT prototype**: To evaluate the performance of our research prototype [SecureCRDT](https://github.com/SecureCRDT/SecureCRDT), first initiate the CRDT client according to the instructions in the project README.
+> :warning: **Evaluating the SecureCRDT prototype**: To evaluate the performance of our research prototype [SecureCRDT](https://github.com/SecureCRDT/SecureCRDT), you must first initiate the CRDT client according to the instructions in the project README.
 
-The performance of a CRDT system can be measured by running a workload with the Locust engine.  The following example command has placeholder variables that need to be replaced:
+You can measure the performance of a CRDT system by running a workload with the Locust engine. The following example command has placeholder variables that need to be replaced:
 
 - `$CRDT`: The CRDT workload that the locust engine will use
 - `$CRDT_SERVER_IP`: The IP of the CRDT Replica that will handle the benchmark requests
